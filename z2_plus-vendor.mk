@@ -181,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8996.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8996.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8996.so \
@@ -195,9 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libeglc2d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeglc2d.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
@@ -478,7 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8996.so \
@@ -516,8 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
