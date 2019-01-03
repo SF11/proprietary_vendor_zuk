@@ -104,6 +104,41 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/zuk/z2_plus/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/zuk/z2_plus/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
+    vendor/zuk/z2_plus/proprietary/vendor/bin/wfdservice:system/bin/wfdservice \
+    vendor/zuk/z2_plus/proprietary/vendor/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/zuk/z2_plus/proprietary/vendor/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdclient.so:system/lib/libwfdclient.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+    vendor/zuk/z2_plus/proprietary/vendor/lib64/
+
     vendor/zuk/z2_plus/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/zuk/z2_plus/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
